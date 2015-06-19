@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="General">
+
+        <CheckBoxPreference
+            android:key="checkBoxPref"
+            android:title="check it out"
+            android:summary="click this little box"/>
+
+        <de.leonardarnold.numberpickerpreference.NumberPickerPreference
+            android:defaultValue="18"
+            android:key="number_picker"
+            app:MaxValue="15"
+            app:MinValue="1"
+            android:summary="number picked: %s"
+            android:title="Give me a number" />
+
+        <EditTextPreference
+            android:key="edittext"
+            android:title="Type in"
+            android:summary="type in what you want"
+            android:inputType="text"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

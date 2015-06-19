@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumberPickerPreference">
+        <attr name="MinValue" format="integer" />
+        <attr name="MaxValue" format="integer"/>
+        <attr name="android:summary"/>
+    </declare-styleable>
+</resources>
